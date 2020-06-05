@@ -1,0 +1,6 @@
+#Bind string Hello, World! to the variable say_hi
+say_hi = 'Hello, World!'
+print(say_hi)
+
+#Or directly print string Hello, World
+#print('Hello, World!')
