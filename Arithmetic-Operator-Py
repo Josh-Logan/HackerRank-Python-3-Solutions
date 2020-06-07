@@ -4,9 +4,9 @@ if __name__ == '__main__':
 #Bind b to the second integer input.     
     b = int(input())
 
+#Print the sum of a and b.
     print(a + b)
-    if a > b:
-        print(a - b)
-    else:
-        print(b - a)
+#Print the absolute value of the difference between a and b.
+    print(abs(a - b))
+#Print the product of a and b.
     print(a * b)
