@@ -3,7 +3,7 @@
 if __name__ == '__main__':
 #Bind the first integer input to a.
     a = int(input())
-#Bind the second integer input to b
+#Bind the second integer input to b.
     b = int(input())
 
 #Print the integer dividend of a divided by b.
