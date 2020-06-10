@@ -1,5 +1,7 @@
 #Conditional that checks if the value of __name__ is __main__.
 if __name__ == '__main__':
+#Bind the first integer input to n.
     n = int(input())
+#Create a for loop, starting at 0 and ending at n.
     for i in range(0, n):
         print(i ** 2)
