@@ -4,4 +4,5 @@ if __name__ == '__main__':
     n = int(input())
 #Create a for loop, starting at 0 and ending at n.
     for i in range(0, n):
+#Print i squared,aka i to the power of 2.
         print(i ** 2)
