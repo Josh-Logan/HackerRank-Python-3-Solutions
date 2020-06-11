@@ -12,4 +12,5 @@ def is_leap(year):
     
     return leap
 
+#Bind year to the integer value of the input.
 year = int(input())
