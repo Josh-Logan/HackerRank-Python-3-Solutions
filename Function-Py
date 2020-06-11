@@ -1,4 +1,6 @@
+#Define the function, is leap, with one parameter, year.
 def is_leap(year):
+#Bind leap to False, a boolean value.
     leap = False
     
     if year % 100 == 0 and year % 400 != 0:
