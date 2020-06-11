@@ -2,9 +2,11 @@
 def is_leap(year):
 #Bind leap to False, a boolean value.
     leap = False
-    
+
+#Conditional statement to check if year is divisible by 100, but 400.
     if year % 100 == 0 and year % 400 != 0:
         return False
+#Else check if year is divisible by 4.
     elif year % 4 == 0:
         return True
     
