@@ -1,3 +1,4 @@
+#Conditional that checks if the value of __name__ is equal to __main__.
 if __name__ == '__main__':
 #Bind the initial integer input to n.
     n = int(input())
@@ -6,6 +7,7 @@ if __name__ == '__main__':
 #Initialize an empty and bind it to s.
     s = ''
 
+#While loop initializing at 0 and terminating when i is equal to n.
     while i <= n:
         s += f'{i}'
         i += 1
