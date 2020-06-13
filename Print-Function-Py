@@ -1,6 +1,9 @@
 if __name__ == '__main__':
+#Bind the initial integer input to n.
     n = int(input())
+#Bind i to the integer value 1.
     i = 1
+#Initialize an empty and bind it to s.
     s = ''
 
     while i <= n:
